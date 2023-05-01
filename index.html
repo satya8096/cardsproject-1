@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: all 0.2s;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .allitems{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .products{
+        padding: 25px;
+        height: 370px;
+        width: 220px;
+        text-align: center;
+        margin: 20px 20px;
+        border-radius: 10px;
+        background-color: rgb(163, 163, 163);
+    }
+    .products a{
+        display: block;
+        margin: 12px auto;
+        text-decoration: none;
+        background-color: cornflowerblue;
+        color: white;
+        width: 100px;
+        padding: 5px 0px;
+        border-radius: 5px;
+    }
+    .products img:hover{
+        scale: 1.08;
+        cursor: pointer;
+        box-shadow: 2px 2px 15px rgb(0, 0, 0);
+    }
+    .products h2{
+        margin: 15px 0px;
+    }
+    .products i{
+        margin: 3px 0px;
+    }
+    .products a:hover{
+        background-color: transparent;
+        border: 2px solid black;
+        scale: 1.08;
+    }
+</style>
+<body>
+    <div class="container">
+            <div class="products img1">
+                <img src="./iphone-13-mlph3hn-a-apple-original-imag6vzzhrxgazsg.webp" alt="iphone" width="120px">
+                <h2>Iphone 13</h2>
+                <p><i class="fa-solid fa-indian-rupee-sign"> 69,999</i></p>
+                <a href="#" class="readmore">Read More</a>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="products">
+                <img src="./-original-imagfggrbywzk8r6.webp" alt="Realme" width="135px">
+                <h2>Realme C13</h2>
+                <p><i class="fa-solid fa-indian-rupee-sign"> 9,999</i></p>
+                <a href="#" class="readmore">Read More</a>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="products">
+                <img src="./-original-imaghmtch6qfmfxg.webp" alt="Poco C50" width="120px">
+                <h2>Poco C50</h2>
+                <p><i class="fa-solid fa-indian-rupee-sign"> 11,999</i></p>
+                <a href="#" class="readmore">Read More</a>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="products">
+                <img src="./-original-imagna3rjqn8vqxb.webp" alt="Infinix" width="135px">
+                <h2>Infinix</h2>
+                <p><i class="fa-solid fa-indian-rupee-sign"> 12,999</i></p>
+                <a href="#" class="readmore">Read More</a>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+    </div>
+</body>
+</html>
